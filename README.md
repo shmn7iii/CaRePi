@@ -40,3 +40,8 @@ SLACK_CHANNEL = 'xxx'
 $ ./setup.sh
 ```
 
+### 3. Run launch.sh
+
+```bash
+$ ./launch.sh
+```
