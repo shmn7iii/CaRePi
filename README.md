@@ -9,7 +9,7 @@ This repository is a collection of each module.
 ### 1. Run configure.sh
 
 ```bash
-./configure.sh
+$ ./configure.sh
 ```
 
 ### 2. Run setup.sh
