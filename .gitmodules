@@ -1,0 +1,3 @@
+[submodule "CaRePi_api"]
+	path = CaRePi_api
+	url = https://github.com/shmn7iii/CaRePi_api.git
