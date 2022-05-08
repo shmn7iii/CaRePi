@@ -4,6 +4,18 @@
 
 This repository is a collection of each module.
 
+> [**CaRePi**](https://github.com/shmn7iii/CaRePi):  
+> Composer of each system.
+>
+> [**CaRePi_api**](https://github.com/shmn7iii/CaRePi_api):  
+> API program. Handle entry/exit and manage tokens. Ruby on Rails, tapyrusd
+>
+> [**CaRePi_reader**](https://github.com/shmn7iii/CaRePi_reader):  
+> Card reader program. Read student number from student card and send request to API. Pyton, PaSoRi.
+>
+> [**CaRePi_slack**](https://github.com/motoha0827/CaRePi_slack):  
+> Slack BOT program. Recieve slash command, interact with API, send message to Slack. Python, Slack BOLT.
+
 ## Setup
 
 Docker, Docker Compose
