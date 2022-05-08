@@ -1,0 +1,12 @@
+[Unit]
+Description=CaRePi Reader
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/yamalabo/CaRePi/CaRePi_reader
+ExecStart=sudo /usr/bin/python3 main.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
