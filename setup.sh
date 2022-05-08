@@ -11,4 +11,4 @@ docker-compose down
 cd ..
 
 # CaRePi Slack
-# TODO
+bash ./CaRePi_slack/setup.sh
