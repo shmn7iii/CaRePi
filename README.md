@@ -7,6 +7,7 @@ This repository is a collection of each module.
 ## Setup
 
 Docker, Docker Compose
+
 ```bash
 # Docker
 $ curl -fsSL https://get.docker.com -o get-docker.sh
@@ -39,8 +40,12 @@ $ ./configure.sh
 $ ./setup.sh
 ```
 
-### 3. Run launch.sh
+### 3. Run launch.sh or systemd.sh
 
 ```bash
 $ ./launch.sh
+
+# or
+
+$ ./systemd.sh
 ```
