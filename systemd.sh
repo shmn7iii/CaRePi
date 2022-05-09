@@ -1,8 +1,8 @@
 #!/bin/bash
 
 sudo mv ./carepi_api.service /etc/systemd/system/carepi_api.service
-sudo mv ./carepi_reader.service /etc/systemd/system/carepi_api.service
-sudo mv ./carepi_slack.service /etc/systemd/system/carepi_api.service
+sudo mv ./carepi_reader.service /etc/systemd/system/carepi_reader.service
+sudo mv ./carepi_slack.service /etc/systemd/system/carepi_slack.service
 
 sudo systemctl daemon-reload
 sudo systemctl enable carepi_api
