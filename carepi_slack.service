@@ -1,0 +1,12 @@
+[Unit]
+Description=CaRePi Slack
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/yamalabo/CaRePi/CaRePi_slack
+ExecStart=sudo /usr/bin/python3 app.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
