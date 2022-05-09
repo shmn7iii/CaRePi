@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # CaRePi Reader
-bash ./CaRePi_reader/setup.sh
+cd CaRePi_reader
+bash ./setup.sh
+cd ..
 
 # CaRePi API
 cd CaRePi_api
@@ -11,4 +13,6 @@ docker-compose down
 cd ..
 
 # CaRePi Slack
-bash ./CaRePi_slack/setup.sh
+cd CaRePi_reader
+bash ./setup.sh
+cd ..
