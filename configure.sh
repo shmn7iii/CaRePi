@@ -9,9 +9,9 @@ read SLACK_APP_TOKEN
 echo -n "SLACK_CHANNEL: "
 read SLACK_CHANNEL
 
-# API
-sed -i -e "s/SLACK_API_TOKEN/$SLACK_BOT_TOKEN/2" ./CaRePi_api/.env
-sed -i -e "s/SLACK_CHANNEL/$SLACK_CHANNEL/2" ./CaRePi_api/.env
+# Reader
+sed -i -e "s/SLACK_BOT_TOKEN/$SLACK_BOT_TOKEN/" ./CaRePi_reader/config.ini
+sed -i -e "s/SLACK_CHANNEL/$SLACK_CHANNEL/" ./CaRePi_reader/config.ini
 
 # Slack
 sed -i -e "s/SLACK_BOT_TOKEN/$SLACK_BOT_TOKEN/2" ./CaRePi_slack/.env
