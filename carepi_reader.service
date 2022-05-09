@@ -6,6 +6,7 @@ After=network.target
 User=root
 WorkingDirectory=/home/yamalabo/CaRePi/CaRePi_reader
 ExecStart=/usr/bin/python3 main.py
+Environment=PYTHONUNBUFFERED=1
 Restart=on-failure
 
 [Install]
