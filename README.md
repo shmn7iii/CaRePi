@@ -18,7 +18,7 @@ This repository is a collection of each module.
 
 ## Setup
 
-Docker, Docker Compose
+Spec: Ubuntu 20.04
 
 ```bash
 # Docker
