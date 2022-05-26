@@ -26,10 +26,7 @@ $ curl -fsSL https://get.docker.com -o get-docker.sh
 $ sudo sh get-docker.sh
 
 # option: rootless mode
-$ sudo apt-get install -y uidmap
 $ dockerd-rootless-setuptool.sh install
-$ echo 'export PATH=/usr/bin:$PATH' >> ~/.bashrc
-$ echo 'export DOCKER_HOST=unix:///run/user/1000/docker.sock' >> ~/.bashrc
 
 # Docker Compose
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
